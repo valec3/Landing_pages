@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PepsiLP</title>
+    <!-- files css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/pepsi.css">
+    <!-- fonts google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,700;1,700&display=swap" rel="stylesheet">
+    <!-- iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header container">
+        <div class="shape"></div>
+        <div class="head-cont">
+            <a class="logo" href="#"><img src="img/logo (1).png" alt="Logopepsi"></a>
+            <nav class="navbar">
+                <ul class="navbar-links">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Noticias</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="hero">
+            <div class="hero-text">
+                <h2 class="header">No es solo una bebida <br> Es <span>Pepsi !</span></h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta officia iste nostrum assumenda. Tempora aut ullam a modi laborum rerum quidem, animi ipsum molestias cupiditate doloribus sed cumque rem labore?
+                    Sequi natus consectetur nulla. Amet adipisci, illum quasi quod minima beatae? In reiciendis veritatis fugit. Incidunt libero sed repellat eligendi nam! Ea aperiam nisi ratione praesentium tempora assumenda sunt nobis!
+                </p>
+                <button class="btn">Aprender mas</button>
+            </div>
+            <div class="hero-img">
+                <img src="img/blue_pepsi.png" id="img-slide" alt="cocalata">
+                <div class="redes">
+                        <i class="fas fa-brands fa-twitter"></i>
+                        <i class="fas fa-brands fa-facebook"></i>
+                        <i class="fas fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+        <div class="thumb">
+            <ul class="product-galery">
+                <li><img src="img/blue_pepsi.png" alt="cocalata" onclick="imgSlider('img/blue_pepsi.png');changeColor('#004b93')"></li>
+                <li><img src="img/black_pepsi.png" alt="cocalata" onclick="imgSlider('img/black_pepsi.png');changeColor('#000')"></li>
+                <li><img src="img/silver_pepsi.png" alt="cocalata" onclick="imgSlider('img/silver_pepsi.png');changeColor('#c3c7c7')"></li>
+            </ul>
+        </div>
+    </header>
+    <script src="js/main.js"></script>
+</body>
+</html>

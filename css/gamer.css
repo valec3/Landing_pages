@@ -56,10 +56,24 @@ img{
 }
 .header .navbar a{
     color: black;
+    position: relative;
     font-weight: bold;
 }
+.header .navbar a::after{
+    content: "";
+    width: 0%;
+    position: absolute;
+    height: 2px;
+    bottom: -3px;
+    left: 0;
+    background: #EC368D;
+    transition: width .5s;
+}
 .header .navbar a:hover{
-    color: var(--colorPrim);
+    color: #E90154;
+}
+.header .navbar a:hover::after{
+    width: 100%;
 }
 .header .icons-nav{
     font-size: 2rem;
